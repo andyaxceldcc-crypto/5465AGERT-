@@ -1,0 +1,22 @@
+form label {
+    display: block;
+    margin-bottom: 0.8rem;
+    font-weight: 500;
+}
+form input, form textarea, form select {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    border-radius: 12px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background: rgba(255,255,255,0.6);
+    backdrop-filter: blur(4px);
+    font-family: inherit;
+    margin-top: 0.3rem;
+}
+body.dark form input,
+body.dark form textarea,
+body.dark form select {
+    background: rgba(255,255,255,0.06);
+    color: #ddd;
+    border-color: rgba(255,255,255,0.1);
+}
