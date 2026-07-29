@@ -1,0 +1,28 @@
+.glass-header {
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding: 0.8rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+.header-left { display: flex; align-items: center; gap: 0.4rem; }
+.badge {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    font-size: 0.65rem;
+    padding: 0.15rem 0.6rem;
+    border-radius: 60px;
+}
+.header-nav { display: flex; gap: 1rem; flex-wrap: wrap; }
+.header-nav a {
+    font-weight: 500;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+    padding: 0.3rem 0;
+}
+.header-nav a:hover, .header-nav a.active { opacity: 1; }
