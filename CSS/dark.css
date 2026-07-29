@@ -1,0 +1,18 @@
+body.dark {
+    background: #0f0f1a;
+    color: #e0e0f0;
+}
+body.dark .glass-card {
+    background: rgba(20, 20, 35, 0.7);
+    border-color: rgba(255,255,255,0.08);
+}
+body.dark .glass-header,
+body.dark .glass-footer {
+    background: rgba(10, 10, 20, 0.8);
+    border-color: rgba(255,255,255,0.05);
+}
+body.dark .btn-secondary {
+    background: rgba(255,255,255,0.08);
+    border-color: rgba(255,255,255,0.1);
+    color: #ccc;
+}
