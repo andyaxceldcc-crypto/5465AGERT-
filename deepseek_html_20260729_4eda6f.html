@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ANDYAXCEL LINK - Todos tus enlaces y música en un solo lugar" />
+    <title>ANDYAXCEL LINK</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/dark.css" />
+    <link rel="stylesheet" href="css/buttons.css" />
+    <link rel="stylesheet" href="css/cards.css" />
+    <link rel="stylesheet" href="css/forms.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/music.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+</head>
+<body>
+    <!-- ===== HEADER ===== -->
+    <header class="glass-header">
+        <div class="header-left">
+            <h1>ANDYAXCEL</h1>
+            <span class="badge">LINK</span>
+        </div>
+        <nav class="header-nav">
+            <a href="index.html" class="active">Inicio</a>
+            <a href="perfil.html">Perfil</a>
+            <a href="editar.html">Editar</a>
+            <a href="configuracion.html">Config</a>
+            <a href="musica.html">Música</a>
+            <a href="redes.html">Redes</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="ayuda.html">Ayuda</a>
+        </nav>
+        <button id="themeToggle" class="btn-icon" aria-label="Cambiar tema">🌙</button>
+    </header>
+
+    <!-- ===== MAIN ===== -->
+    <main class="container">
+        <!-- Perfil resumen -->
+        <section class="profile-summary glass-card">
+            <div class="avatar" id="avatarPreview">
+                <img src="assets/images/avatar-default.png" alt="Avatar" id="avatarImg" />
+            </div>
+            <div class="profile-info">
+                <h2 id="displayName">Andy Axel</h2>
+                <p id="displayUsername">@andyaxel</p>
+                <p id="displayBio">Creador | Música | Enlaces</p>
+            </div>
+            <button id="shareProfileBtn" class="btn-primary">Compartir</button>
+        </section>
+
+        <!-- Enlaces dinámicos -->
+        <section class="links-grid" id="linksContainer">
+            <!-- Los enlaces se generan con JS -->
+        </section>
+
+        <!-- Reproductor musical simple -->
+        <section class="music-section glass-card">
+            <h3>🎵 Música</h3>
+            <div class="music-platforms" id="musicPlatforms">
+                <!-- Botones musicales generados con JS -->
+            </div>
+        </section>
+
+        <!-- Redes sociales -->
+        <section class="social-section glass-card">
+            <h3>🌐 Redes</h3>
+            <div class="social-icons" id="socialIcons">
+                <!-- Iconos de redes generados con JS -->
+            </div>
+        </section>
+
+        <!-- QR -->
+        <div class="qr-container" id="qrContainer">
+            <canvas id="qrCanvas" width="150" height="150"></canvas>
+            <p>Escanea para compartir</p>
+        </div>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="glass-footer">
+        <p>&copy; 2026 ANDYAXCEL LINK — Todos los derechos reservados</p>
+        <div class="footer-links">
+            <a href="ayuda.html">Ayuda</a>
+            <a href="configuracion.html">Configuración</a>
+        </div>
+    </footer>
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script src="js/storage.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/icons.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/profile.js"></script>
+    <script src="js/music.js"></script>
+    <script src="js/drag.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/copy.js"></script>
+    <script src="js/qr.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
