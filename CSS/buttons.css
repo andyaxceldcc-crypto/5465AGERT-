@@ -1,0 +1,23 @@
+/* Botones adicionales */
+.btn-outline {
+    background: transparent;
+    border: 2px solid #6a11cb;
+    color: #6a11cb;
+    padding: 0.6rem 1.5rem;
+    border-radius: 60px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.btn-outline:hover {
+    background: #6a11cb;
+    color: #fff;
+}
+.btn-danger {
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 60px;
+    cursor: pointer;
+}
