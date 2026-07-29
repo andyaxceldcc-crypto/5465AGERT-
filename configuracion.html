@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuración - ANDYAXCEL LINK</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/dark.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <header class="glass-header">
+        <div class="header-left"><h1>ANDYAXCEL</h1><span class="badge">LINK</span></div>
+        <nav class="header-nav">
+            <a href="index.html">Inicio</a>
+            <a href="perfil.html">Perfil</a>
+            <a href="editar.html">Editar</a>
+            <a href="configuracion.html" class="active">Config</a>
+            <a href="musica.html">Música</a>
+            <a href="redes.html">Redes</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="ayuda.html">Ayuda</a>
+        </nav>
+        <button id="themeToggle" class="btn-icon">🌙</button>
+    </header>
+    <main class="container">
+        <section class="config-section glass-card">
+            <h2>Configuración</h2>
+            <div class="config-group">
+                <label>Color primario: <input type="color" id="primaryColor" value="#6a11cb"></label>
+                <label>Fondo (color o URL): <input type="text" id="bgSetting" placeholder="color o URL"></label>
+                <label>Tipografía: 
+                    <select id="fontSetting">
+                        <option value="'Segoe UI', sans-serif">Segoe UI</option>
+                        <option value="Georgia, serif">Georgia</option>
+                        <option value="'Courier New', monospace">Courier New</option>
+                    </select>
+                </label>
+                <button id="saveConfigBtn" class="btn-primary">Guardar Configuración</button>
+            </div>
+        </section>
+    </main>
+    <footer class="glass-footer">
+        <p>&copy; 2026 ANDYAXCEL LINK</p>
+    </footer>
+    <script src="js/storage.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
